@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CustomSearshIcon extends StatelessWidget {
-  const CustomSearshIcon({super.key});
-
+  const CustomSearshIcon({super.key,required this.icon});
+  final IconData icon;
   @override
   Widget build(BuildContext context) {
     return   Container(
